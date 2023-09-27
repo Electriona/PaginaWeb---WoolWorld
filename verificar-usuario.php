@@ -4,7 +4,7 @@
 // $contrasena = $_POST["contrasena"];
 //Luego se conectara a la base de datos
 $usuario = "chell";
-$contrasena = "666";
+$contrasena = "225";
 
 if ($_POST["username"] == $usuario and $_POST["pass"] == $contrasena){
     echo "Accediste correctamente";
