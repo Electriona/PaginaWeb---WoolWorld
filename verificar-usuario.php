@@ -6,7 +6,7 @@
 $usuario = "chell";
 $contrasena = "666";
 
-if ($_POST["usuario"] == $usuario and $_POST["contrasena"] == $contrasena){
+if ($_POST["username"] == $usuario and $_POST["pass"] == $contrasena){
     echo "Accediste correctamente";
 }
 else{
